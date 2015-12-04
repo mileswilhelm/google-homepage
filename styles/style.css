@@ -1,0 +1,350 @@
+body {
+	overflow-x: hidden;
+	margin: 0;
+}
+
+div#main_logo {
+	margin: 0 auto;
+	display: table;
+	margin-bottom: 32px;
+}
+
+div#main_logo img {
+	width: 17em;
+}
+
+input#searchbar {
+	margin: 15px auto;
+	display: block;
+	width: 575px;
+	font-family: sans-serif;
+	font-size: 15px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+button.googlebutton {
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	color: #6B6A6A;
+	background: #EFEFEF;
+	border: 0px;
+	height: 35px;
+	padding: 0 15px 0 15px;
+	margin: 0 3px;
+}
+
+div div.buttons {
+	text-align: center;
+}
+
+div.topnav nav ul li a {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: gray;
+	text-decoration: none;
+	width: 30px;
+	margin-right: 10px;
+}
+
+div.topnav nav ul li a:hover {
+	color: black;
+}
+
+div.topnav nav ul li a:visited {
+	color: purple;
+}
+
+div.topnav nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 147px;
+	margin-right: 25px;
+}
+
+div.topnav nav ul li {
+	display: inline;
+}
+
+div.botnav nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	bottom: 0px;
+	position: absolute;
+	background: #efefef;
+	border-top: 1px solid #C7C7C7;
+	width: 100%;
+	max-width: 100%;
+}
+
+div.botnav nav ul li {
+	display: inline;
+}
+
+div.botnav nav ul li a {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #6B6A6A;
+	text-decoration: none;
+	width: 30px;
+	margin-right: 25px;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+.botnav {
+	line-height: 40px;
+	background: #efefef;
+}
+
+div.searchnav nav ul li a {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: gray;
+	text-decoration: none;
+	width: 30px;
+	margin-right: 10px;
+}
+
+div.searchnav {
+	width: 4000px;
+}
+div.searchnav nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 77px;
+	text-align: right;
+	background: #efefef;
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	margin-top: -15px;
+}
+
+div.searchnav nav ul li {
+	display: inline-block;
+}
+
+a img {
+	width: 100px;
+	margin-top: 28px;
+	margin-left: 12px;
+}
+
+nav ul li input {
+	margin-top: 29px;
+	height: 30px;
+	margin-left: 8px;
+	width: 450px;
+}
+
+nav ul li.navtext {
+	margin-top: 35px;
+	margin-right: 5px;
+}
+
+div.searchnav nav ul li:last-child {
+	margin-right: 40px;
+}
+
+div.selections ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.selections ul li a {
+	text-decoration: none;
+	color: #727272;
+	font-size: 13px;
+	font-weight: 500;
+	font-family: sans-serif;
+	padding: 20px 10px 16px 10px;
+	margin: 0 8px;
+}
+
+div.selections ul li {
+	display: inline;
+}
+
+div.selections ul li:first-child {
+	margin-left: 128px;
+}
+
+div.selections ul li a:first-child {
+	margin: 0 8px 0 0;
+}
+
+div.selections {
+	width: 4000px;
+	line-height: 50px;
+	height: 53px;
+	border-bottom: 1px solid #ebebeb;
+	position: absolute;
+	margin-top: 66px;
+}
+
+body div.selections ul li a:hover {
+	color: black;
+}
+
+body div.selections ul li a#selected {
+	font-weight: bold;
+	color: #6085EF;
+	border-bottom: 4px solid #6085EF;
+}
+
+#rslts {
+	float: left;
+    margin-top: 120px;
+    margin-left: 128px;
+}
+
+#rslts p {
+	font-size: 13px;
+	color: gray;
+	font-family: sans-serif;
+}
+
+.rslt div {
+	width: 500px;
+	margin-left: 128px;
+}
+
+.rslt div a {
+	text-decoration: none;
+}
+
+.rslt div h2 {
+	font-size: 18px;
+    color: #0000BB;
+    margin: 0;
+    font-family: arial;
+    font-weight: 500;
+}
+
+p.rslturl {
+	margin: 0;
+    font-family: sans-serif;
+    color: green;
+    font-size: 14px;
+}
+
+p.rsltdesc {
+	margin: 0;
+    font-family: arial;
+    font-size: 13px;
+    color: #545454;
+}
+
+p.rsltlinks {
+    margin: 0;
+    font-family: arial;
+    font-size: 13px;
+    color: #00B;
+}
+
+p.rsltlinks a {
+    color: #00b;
+    text-decoration: none;
+}
+
+.rslt div {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.rslt {
+	line-height: 1.3;
+	width: 50%;
+}
+
+div.searchnav nav ul li a:hover {
+	color: black;
+}
+
+.info {
+	position: relative;
+    left: auto;
+    margin-left: 708px;
+    top: auto;
+    bottom: 653px;
+	height: 600px;
+	box-shadow: 1px 1px 6px 1px gainsboro;
+	width: 28%;
+}
+
+div#image span img {
+	max-height: 200px;
+	max-width: 300px;
+	float: left;
+}
+
+div#infotitl {
+	padding-left: 9px;
+}
+
+div.info div span img {
+	padding: 2px 0 0 2px;
+}
+
+div#infotitl {
+	font-family: arial;
+}
+
+div#infotitl h1 {
+	font-weight: 500;
+	margin: 10px 0;
+	float: left;
+}
+
+div#infotitl p {
+	margin: 0;
+	font-size: 13px;
+	color: gray;
+	float: left;
+	clear: both;
+}
+
+div#infotitl p a {
+	color: blue;
+	text-decoration: none;
+}
+
+div#image span#img2 img {
+	max-width: 124px;
+	max-height: 100px;
+	padding-right: 2px;
+}
+
+div#image span#img3 img {
+	max-width: 120px;
+	max-height: 128px;
+	padding-right: 2px;
+}
+
+.googlebutton:hover {
+	cursor: pointer;
+}
+
+span#circle {
+	background: green;
+    color: white;
+    font-size: 16px;
+    padding: 7px 9px;
+    margin: 1px;
+    border-radius: 135px;
+}
